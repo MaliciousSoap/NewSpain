@@ -1,0 +1,11 @@
+
+//Illustrator
+Right click while selected, 
+Collect for export
+Export at 576 ppi
+Return PNG into this folder
+
+//Unity
+Go to source image
+Set pixels per unit to 576.
+This is standardization
