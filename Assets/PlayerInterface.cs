@@ -21,8 +21,8 @@ public class PlayerInterface : MonoBehaviour
             mDelta = Input.mouseScrollDelta.y;
             sizeScale -= mDelta; // plus or minus change in mouse scroll
 
-            if (sizeScale < -5) { sizeScale = -5; } //Caps sizeScale at 3
-            if (sizeScale > 0) { sizeScale = 0; } //Caps sizeScale at 10
+            if (sizeScale < -4) { sizeScale = -4; } //Caps sizeScale at -4 due to cameraSize 0 returning an error
+            if (sizeScale > 0) { sizeScale = 0; } //Caps sizeScale at 0
 
             currentCanera.orthographicSize = 5 + sizeScale;
         }//If
