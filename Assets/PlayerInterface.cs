@@ -6,12 +6,14 @@ public class PlayerInterface : MonoBehaviour
 {
     private float sizeScale = 1;    //sizeScale Factor
 
-    private Camera currentCanera;
+    private Camera currentCamera;
     private float mDelta; //Mouse Delta
+    private float initialCameraSize;
 
     private void Start()
     {
-        currentCanera = Camera.main;
+        currentCamera = Camera.main;
+        initialCameraSize = currentCamera.orthographicSize;
     }//Void
 
     private void Update()
@@ -21,10 +23,10 @@ public class PlayerInterface : MonoBehaviour
             mDelta = Input.mouseScrollDelta.y;
             sizeScale -= mDelta; // plus or minus change in mouse scroll
 
-            if (sizeScale < -4) { sizeScale = -4; } //Caps sizeScale at -4 due to cameraSize 0 returning an error
+            if (sizeScale < -initialCameraSize + 1) { sizeScale = -initialCameraSize + 1; } //Caps sizeScale at -4 due to cameraSize 0 returning an error
             if (sizeScale > 0) { sizeScale = 0; } //Caps sizeScale at 0
 
-            currentCanera.orthographicSize = 5 + sizeScale;
+            currentCamera.orthographicSize = 5 + sizeScale;
         }//If
     }//Void
 }//Class

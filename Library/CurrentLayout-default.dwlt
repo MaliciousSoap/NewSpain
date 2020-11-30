@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 781, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 3278
+  controlID: 1404
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 505, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 3279
+  controlID: 1405
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_MinSize: {x: 505, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 3280
+  controlID: 1406
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -422,9 +422,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 84350000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 52fbffff
+      m_ExpandedIDs: 52fbffff503c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -484,9 +484,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.015168535, y: 0.15471902, z: -0.036017545}
+    m_Target: {x: -4.0429683, y: 1.5847995, z: -33.820225}
     speed: 2
-    m_Value: {x: -0.015168535, y: 0.15471902, z: -0.036017545}
+    m_Value: {x: -4.0612416, y: 1.5499841, z: -33.811665}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -537,9 +537,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.55
+    m_Target: 1.987728
     speed: 2
-    m_Value: 9.55
+    m_Value: 1.902132
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -602,21 +602,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Images/576ppi
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Images/576ppi
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\AndyJ\Desktop\Quarantine\Unity Projects\NewSpain
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a83c0000
-    m_LastClickedID: 15528
-    m_ExpandedIDs: 00000000a83c0000
+    m_SelectedIDs: f43c0000
+    m_LastClickedID: 15604
+    m_ExpandedIDs: 00000000ea3c0000ee3c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -644,7 +644,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a83c0000
+    m_ExpandedIDs: 00000000ea3c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -671,7 +671,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
