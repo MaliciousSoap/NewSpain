@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class DeveloperInterface : MonoBehaviour
 {
-    public GameObject buggedObject;
+    public float dragSpeed = 2;
+    private Vector3 dragOrigin;
+
+    //public GameObject buggedObject;
+    public GameObject map;
+
+    public Camera m_cam;
+    private bool space_toggle = false;
 
     // Start is called before the first frame update
     private void Start()
@@ -12,14 +19,24 @@ public class DeveloperInterface : MonoBehaviour
         print("INIT");
         Application.targetFrameRate = 60;
         print("INITIALIZED FOR 60 FPS");
+
+        m_cam = Camera.main;
     }
+
+    private int n = 0;
 
     // Update is called once per frame
     private void Update()
     {
         if (Input.GetKeyDown("space"))
         {
-            print("TRANSFORM : " + buggedObject.transform.position);
-        }
-    }
-}
+            n++;
+            print("orthographic size: " + m_cam.orthographicSize + " at index " + n);
+        }//If
+        if (Input.GetKeyDown(KeyCode.Y))
+
+        {
+            print("Position Y: " + m_cam.transform.position.y);
+        }//If
+    }//Void
+}//Classs

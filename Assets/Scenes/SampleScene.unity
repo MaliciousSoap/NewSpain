@@ -541,7 +541,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67cac79e84c49be4dbb2ba97b9bc6c64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buggedObject: {fileID: 1543022622}
+  dragSpeed: 2
+  map: {fileID: 1316840241}
+  m_cam: {fileID: 0}
 --- !u!114 &1181495101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -554,6 +556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 617edca8f1e0d1f4f98fddfa700fee05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pan_speed: 2
 --- !u!1 &1316840241
 GameObject:
   m_ObjectHideFlags: 0
@@ -611,7 +614,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4fa994e805d5b2049be53d514fe9a927, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8a71365b5e093d8439c49859859b1144, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
