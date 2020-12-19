@@ -8,10 +8,8 @@ Source of maps
 
 
 This is a project, I'll be working on over Winter break. If you have any suggestions to my code... Feel free to do so-- Although I don't check github that often, any help
-would never be unnapreciated. This is more for me, like trello but with the added bonus of version control
+would never be unnapreciated. This is more for me, like trello but with the added bonus of version control, It's public because if the day comes that I forget everything -- including my passwords-- atleast I'll be able to keep this.
 
-
-if you find any code you'd like to take, then I'd be honored to have contributed to someone's project.
 
 
 
