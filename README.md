@@ -1,10 +1,14 @@
 # NewSpain
 
+
+
 https://commons.wikimedia.org/wiki/Maps_of_the_world
 Source of maps
 
-This is a project, I'll be working on over thanksgiving break. If you have any suggestions to my code... Feel free to do so-- Although I don't check github that often, any help
-would never be unnapreciated.
+
+
+This is a project, I'll be working on over Winter break. If you have any suggestions to my code... Feel free to do so-- Although I don't check github that often, any help
+would never be unnapreciated. This is more for me, like trello but with the added bonus of version control
 
 
 if you find any code you'd like to take, then I'd be honored to have contributed to someone's project.
