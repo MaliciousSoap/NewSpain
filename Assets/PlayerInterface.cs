@@ -27,8 +27,8 @@ public class PlayerInterface : MonoBehaviour
             // if (sizeScale > 0) { sizeScale = 0; } //Caps sizeScale at 0
 
             ///float M_orthographicSize = 5 - sizeScale;
-            sizeScale = Mathf.Clamp(sizeScale, 0.0f, 4.5f);
-            currentCamera.orthographicSize = 5 - sizeScale;
+            sizeScale = Mathf.Clamp(sizeScale, 0.0f, 9.5f);
+            currentCamera.orthographicSize = 10 - sizeScale;
         }//If
 
         float ortho_size = currentCamera.orthographicSize;
@@ -49,7 +49,7 @@ public class PlayerInterface : MonoBehaviour
         {
             cam_pos.x += Time.deltaTime * (ortho_size * pan_speed);
         }
-        cam_pos.y = Mathf.Clamp(cam_pos.y, -(5 - ortho_size), (5 - ortho_size));
+        cam_pos.y = Mathf.Clamp(cam_pos.y, -(10 - ortho_size), (10 - ortho_size)); //The sum of the intercept and the half height of the viewport (as measured from the center) must not be greater or lower than the bounding box
         currentCamera.transform.position = cam_pos; //Modify the current camera's position by the cam_pos variable
     }//Void
 }//Class
