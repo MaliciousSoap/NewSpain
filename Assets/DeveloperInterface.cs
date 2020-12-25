@@ -5,13 +5,11 @@ using UnityEngine;
 public class DeveloperInterface : MonoBehaviour
 {
     public float dragSpeed = 2;
-    private Vector3 dragOrigin;
 
     //public GameObject buggedObject;
     public GameObject map;
 
     public Camera m_cam;
-    private bool space_toggle = false;
 
     // Start is called before the first frame update
     private void Start()
