@@ -1,11 +1,14 @@
 # NewSpain
 
 
-
+maps:
 https://commons.wikimedia.org/wiki/Maps_of_the_world
 https://www.cia.gov/library/publications/the-world-factbook/attachments/images/original/world_phy.jpg?1558019809
-map sources
 
+
+
+icons: 
+<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 This is a project, I'll be working on over Winter break. If you have any suggestions to my code... Feel free to do so-- Although I don't check github that often, any help
 would never be unnapreciated. This is more for me, like trello but with the added bonus of version control, It's public because if the day comes that I forget everything -- including my passwords-- atleast I'll be able to keep this.
