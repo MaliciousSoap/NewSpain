@@ -20,14 +20,14 @@ public class PlayerInterface : MonoBehaviour
         Vector3 cam_pos = currentCamera.transform.position;
         if (Input.mouseScrollDelta.y != 0)  //To reduce lag, only check ro try for scaling when relevant
         {
-            mDelta = Input.mouseScrollDelta.y / 2;
+            mDelta = Input.mouseScrollDelta.y / 5;
             sizeScale += mDelta; // plus or minus change in mouse scroll
 
             // if (sizeScale < -initialCameraSize + 1) { sizeScale = -initialCameraSize + 1; } //Caps sizeScale at -4 due to cameraSize 0 returning an error
             // if (sizeScale > 0) { sizeScale = 0; } //Caps sizeScale at 0
 
             ///float M_orthographicSize = 5 - sizeScale;
-            sizeScale = Mathf.Clamp(sizeScale, 0.0f, 9.5f);
+            sizeScale = Mathf.Clamp(sizeScale, 0.0f, 9.9f);
             currentCamera.orthographicSize = 10 - sizeScale;
         }//If
 

@@ -11,4 +11,14 @@ public class Clickable : MonoBehaviour
     {
         print("You've colonized " + gameObject.name);
     }
+
+    private void OnMouseOver()
+    {
+        gameObject.GetComponent<SpriteRenderer>().color = Color.grey;
+    }
+
+    private void OnMouseExit()
+    {
+        gameObject.GetComponent<SpriteRenderer>().color = Color.white;
+    }
 }

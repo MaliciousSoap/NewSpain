@@ -56,10 +56,12 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\HideIsland.cs" />
     <Compile Include="Assets\BaseScripts.cs" />
     <Compile Include="Assets\PlayerInterface.cs" />
-    <Compile Include="Assets\DeveloperInterface.cs" />
     <Compile Include="Assets\Clickable.cs" />
+    <Compile Include="Assets\DeveloperInterface.cs" />
+    <Compile Include="Assets\Mesh2dColliderMaker.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
