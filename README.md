@@ -11,8 +11,7 @@ icons:
 <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 
-
-/n
+<br />
 
 
 This is a project, I'll be working on over Winter break. If you have any suggestions to my code... Feel free to do so-- Although I don't check github that often, any help
