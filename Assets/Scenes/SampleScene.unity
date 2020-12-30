@@ -160,7 +160,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6672793424989071831, guid: 42f32422bf7a82546a6c193a2093fed7, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -6672793424989071831, guid: 42f32422bf7a82546a6c193a2093fed7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -188,7 +188,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7419630257524702748, guid: 42f32422bf7a82546a6c193a2093fed7, type: 3}
       propertyPath: m_Name
-      value: St. Augustine (1)
+      value: Hispaniola
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 7243324766535440047, guid: 42f32422bf7a82546a6c193a2093fed7, type: 3}
@@ -343,7 +343,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -510,88 +510,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8594433d8023ddc46b7badd4ba30a967, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &637528007
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 637528009}
-  - component: {fileID: 637528008}
-  m_Layer: 0
-  m_Name: New Sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &637528008
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 637528007}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &637528009
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 637528007}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.2710763, y: 4.2206936, z: -3.1964033}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &663714301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -626,7 +544,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2040025118619405836, guid: 469afd26819c5c34198cfbe94c181e21, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -2040025118619405836, guid: 469afd26819c5c34198cfbe94c181e21, type: 3}
       propertyPath: m_LocalRotation.x
@@ -915,7 +833,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1181495100
 MonoBehaviour:
@@ -1106,7 +1024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1321772749}
   m_Layer: 0
-  m_Name: Basemap
+  m_Name: Deprecated_Basemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1131,8 +1049,57 @@ Transform:
   - {fileID: 1803198384}
   - {fileID: 1847900117}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1437437777 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2074152720617767865, guid: 292c07df96bd94a47893916305dd7a74, type: 3}
+  m_PrefabInstance: {fileID: 2011177728}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1437437779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437437777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8594433d8023ddc46b7badd4ba30a967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!60 &1437437780
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437437777}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.3319, y: 2.5149}
+    newSize: {x: 6.3319, y: 2.5149}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.14114393, y: 0.6567037}
+      - {x: -3.0109975, y: 0.9783323}
+      - {x: -3.3674421, y: -1.2901232}
+      - {x: -1.9434978, y: -1.3223127}
+      - {x: -0.75561655, y: -1.198416}
+      - {x: 2.7548168, y: -0.93029714}
+      - {x: 3.2619226, y: 1.229258}
 --- !u!4 &1443426593 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -3792578289871324961, guid: 429a8bc5b7dfe05419d6d0155dd09d79, type: 3}
@@ -1300,7 +1267,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6672793424989071831, guid: 42f32422bf7a82546a6c193a2093fed7, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -6672793424989071831, guid: 42f32422bf7a82546a6c193a2093fed7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1440,19 +1407,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -2074152720617767865, guid: 292c07df96bd94a47893916305dd7a74, type: 3}
       propertyPath: m_Name
-      value: Canarias
+      value: Los Canarias
       objectReference: {fileID: 0}
     - target: {fileID: 2156829594133162724, guid: 292c07df96bd94a47893916305dd7a74, type: 3}
       propertyPath: m_Color.r
-      value: 0.6313726
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2156829594133162724, guid: 292c07df96bd94a47893916305dd7a74, type: 3}
       propertyPath: m_Color.g
-      value: 0.6313726
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2156829594133162724, guid: 292c07df96bd94a47893916305dd7a74, type: 3}
       propertyPath: m_Color.b
-      value: 0.6313726
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7992862699044038309, guid: 292c07df96bd94a47893916305dd7a74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1484,7 +1451,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7992862699044038309, guid: 292c07df96bd94a47893916305dd7a74, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7992862699044038309, guid: 292c07df96bd94a47893916305dd7a74, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1561,7 +1528,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3821535484696792815, guid: c2f48a737cf3c7a4e834bd3ed2163b98, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3821535484696792815, guid: c2f48a737cf3c7a4e834bd3ed2163b98, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1662,8 +1629,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5322391271073778388}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0282, y: 0.0505, z: 11}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.028265, y: 0.050689, z: 11}
+  m_LocalScale: {x: 1.0143979, y: 1.0112389, z: 1}
   m_Children: []
   m_Father: {fileID: 2861694334656582999}
   m_RootOrder: 14
@@ -1783,7 +1750,7 @@ GameObject:
   - component: {fileID: 831796616}
   - component: {fileID: 196034487835991039}
   m_Layer: 0
-  m_Name: Murcia (2)
+  m_Name: Murcia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1814,11 +1781,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.000000007450581, y: 0.01000003}
-      - {x: -0.009510558, y: 0.0030901995}
-      - {x: -0.005877844, y: -0.00809014}
-      - {x: 0.005877861, y: -0.008090139}
-      - {x: 0.009510572, y: 0.003090201}
+    - - {x: 0.0036856309, y: 0.009692875}
+      - {x: -0.0075319917, y: 0.0037016151}
+      - {x: -0.009280209, y: 0.0010170308}
+      - {x: -0.0056682257, y: -0.0011047127}
+      - {x: -0.002345792, y: -0.0043277284}
+      - {x: 0.0052362583, y: 0.0008396858}
+      - {x: 0.006439222, y: 0.005854426}
 --- !u!4 &369048970117806969
 Transform:
   m_ObjectHideFlags: 0
@@ -1846,7 +1815,7 @@ GameObject:
   - component: {fileID: 773807442}
   - component: {fileID: 844114993702278045}
   m_Layer: 0
-  m_Name: Castille La Mancha (2)
+  m_Name: Castille La Mancha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1877,11 +1846,22 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.0041822507, y: -0.0051070135}
-      - {x: -0.029329995, y: 0.0040225065}
+    - - {x: 0.0011944049, y: 0.010440601}
+      - {x: -0.0016311292, y: -0.0024204613}
+      - {x: -0.007783873, y: -0.003954498}
+      - {x: -0.012107945, y: 0.0027208927}
+      - {x: -0.01527958, y: 0.007617152}
+      - {x: -0.026592758, y: 0.0057512796}
+      - {x: -0.024440063, y: -0.003579843}
+      - {x: -0.029055562, y: -0.02034086}
       - {x: -0.02755884, y: -0.028021486}
-      - {x: 0.027857559, y: -0.01950765}
-      - {x: 0.017516693, y: 0.029604252}
+      - {x: 0.0018661019, y: -0.024071084}
+      - {x: 0.015754519, y: -0.025422204}
+      - {x: 0.021105612, y: -0.021376694}
+      - {x: 0.027425366, y: -0.018067006}
+      - {x: 0.018020283, y: 0.0013127925}
+      - {x: 0.016636312, y: 0.02790147}
+      - {x: 0.008152481, y: 0.021248491}
 --- !u!4 &1368072126795964112
 Transform:
   m_ObjectHideFlags: 0
@@ -1937,7 +1917,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 3286163911610860551, guid: 4115f5f4392cf9d40be96213fb057aa6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1960,7 +1940,7 @@ GameObject:
   - component: {fileID: 1929771962}
   - component: {fileID: 2027116379580552832}
   m_Layer: 0
-  m_Name: Cantabria (2)
+  m_Name: Cantabria
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1991,11 +1971,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 0.010000455}
-      - {x: -0.009510999, y: 0.0030903104}
-      - {x: -0.0058781193, y: -0.008090539}
-      - {x: 0.005878121, y: -0.008090538}
-      - {x: 0.009510998, y: 0.0030903118}
+    - - {x: -0.006447387, y: 0.005648458}
+      - {x: -0.0050784154, y: -0.00021398067}
+      - {x: -0.009424191, y: -0.0038191266}
+      - {x: 0.0025738303, y: -0.0070428317}
+      - {x: 0.007334999, y: 0.003976847}
 --- !u!1 &2315554899463566728
 GameObject:
   m_ObjectHideFlags: 0
@@ -2009,7 +1989,7 @@ GameObject:
   - component: {fileID: 1504299481}
   - component: {fileID: 2315554899463566729}
   m_Layer: 0
-  m_Name: Pais Vasco (2)
+  m_Name: Pais Vasco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2040,11 +2020,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 0.011014788}
-      - {x: -0.010475687, y: 0.0034037565}
-      - {x: -0.0064743296, y: -0.008911151}
-      - {x: 0.0064743315, y: -0.0089111505}
-      - {x: 0.010475686, y: 0.0034037582}
+    - - {x: -0.0048355344, y: 0.008677619}
+      - {x: -0.011442795, y: -0.003527167}
+      - {x: 0.010772442, y: -0.0077022742}
+      - {x: 0.008730903, y: 0.001807577}
+      - {x: 0.009105613, y: 0.005740976}
 --- !u!1 &2379615112302637684
 GameObject:
   m_ObjectHideFlags: 0
@@ -2058,7 +2038,7 @@ GameObject:
   - component: {fileID: 624729278}
   - component: {fileID: 2379615112302637685}
   m_Layer: 0
-  m_Name: Valencia (2)
+  m_Name: Valencia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2089,11 +2069,16 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 0.026350003}
-      - {x: -0.025060343, y: 0.008142598}
-      - {x: -0.015488141, y: -0.021317601}
-      - {x: 0.015488146, y: -0.0213176}
-      - {x: 0.02506034, y: 0.008142602}
+    - - {x: 0.012207222, y: 0.02357562}
+      - {x: -0.0041652485, y: 0.013397264}
+      - {x: -0.021522127, y: 0.007859547}
+      - {x: -0.019902661, y: -0.0067853923}
+      - {x: -0.010393111, y: -0.01990235}
+      - {x: 0.00091070356, y: -0.012118268}
+      - {x: -0.0029119833, y: -0.0037960052}
+      - {x: -0.00237147, y: 0.00210948}
+      - {x: 0.004372295, y: 0.011829424}
+      - {x: 0.013313463, y: 0.020455588}
 --- !u!212 &2445880711115201936
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2135,7 +2120,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 3286163911610860551, guid: e57231be910ee704dbd700144bf8a150, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.504717, b: 0.504717, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2158,7 +2143,7 @@ GameObject:
   - component: {fileID: 1248792745}
   - component: {fileID: 2500360403733746806}
   m_Layer: 0
-  m_Name: "Catalu\xF1a (2)"
+  m_Name: "Catalu\xF1a"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2189,11 +2174,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 0.019397248}
-      - {x: -0.01844785, y: 0.005994099}
-      - {x: -0.011401397, y: -0.015692651}
-      - {x: 0.011401401, y: -0.015692648}
-      - {x: 0.01844785, y: 0.005994102}
+    - - {x: 0.016884094, y: 0.011658706}
+      - {x: -0.017322246, y: 0.01893856}
+      - {x: -0.012808407, y: 0.0016135797}
+      - {x: -0.008718814, y: -0.008094772}
+      - {x: 0.009161597, y: 0.0013509477}
 --- !u!1 &2861694334656582997
 GameObject:
   m_ObjectHideFlags: 0
@@ -2252,7 +2237,7 @@ RectTransform:
   - {fileID: 3221655822779298563}
   - {fileID: 48120901888798548}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2300,7 +2285,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 3286163911610860551, guid: bbee8be82f4a8e94fbda8857febff5d2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.41037738, b: 0.41037738, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2351,7 +2336,7 @@ GameObject:
   - component: {fileID: 421525964}
   - component: {fileID: 3823619206596126961}
   m_Layer: 0
-  m_Name: Galicia (2)
+  m_Name: Galicia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2382,10 +2367,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 0.025649998}
-      - {x: -0.024394598, y: 0.007926285}
-      - {x: -0.015076689, y: -0.020751286}
-      - {x: 0.015076693, y: -0.020751283}
+    - - {x: 0.024370704, y: 0.01116596}
+      - {x: 0.008129251, y: 0.0139641985}
+      - {x: -0.009787348, y: 0.005639947}
+      - {x: -0.0121552395, y: -0.014527369}
+      - {x: 0.009109256, y: -0.018702932}
+      - {x: 0.015330728, y: -0.016178558}
+      - {x: 0.02055504, y: -0.008386701}
       - {x: 0.024394598, y: 0.007926289}
 --- !u!4 &3883770485492151004
 Transform:
@@ -2414,7 +2402,7 @@ GameObject:
   - component: {fileID: 281758851}
   - component: {fileID: 4046529232694631012}
   m_Layer: 0
-  m_Name: Andalucia (2)
+  m_Name: Andalucia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2445,11 +2433,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.005897143, y: 0.01456102}
-      - {x: -0.03658038, y: 0.007698172}
-      - {x: -0.021511989, y: -0.01661667}
-      - {x: 0.026261996, y: -0.005268734}
-      - {x: 0.03656812, y: 0.011881738}
+    - - {x: 0.023114126, y: 0.011506507}
+      - {x: -0.019351263, y: 0.0074014342}
+      - {x: -0.035877284, y: 0.015452473}
+      - {x: -0.03819825, y: 0.00085003115}
+      - {x: -0.020578276, y: -0.015473334}
+      - {x: 0.025044959, y: -0.003063864}
+      - {x: 0.033982217, y: 0.004600517}
 --- !u!212 &4377956613591780065
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2542,7 +2532,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 3286163911610860551, guid: 7f5b1bf8fece7ff43a728d7e7b195cff, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2644,7 +2634,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 3286163911610860551, guid: 2d4b8322215e9e74393ed32b034a01d2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.7688679, b: 0.7688679, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2667,7 +2657,7 @@ GameObject:
   - component: {fileID: 884955243}
   - component: {fileID: 4810168836860250581}
   m_Layer: 0
-  m_Name: Madrid (2)
+  m_Name: Madrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2698,11 +2688,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 0.011777084}
-      - {x: -0.011200645, y: 0.0036393395}
-      - {x: -0.006922378, y: -0.009527808}
-      - {x: 0.00692238, y: -0.009527807}
-      - {x: 0.011200644, y: 0.0036393413}
+    - - {x: -0.0010883523, y: 0.00432601}
+      - {x: -0.01053089, y: 0.0003742827}
+      - {x: -0.0032387008, y: -0.0109510375}
+      - {x: 0.0027363864, y: -0.009527807}
+      - {x: 0.010028573, y: 0.011174135}
 --- !u!4 &4944818119870349536
 Transform:
   m_ObjectHideFlags: 0
@@ -2800,7 +2790,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 3286163911610860551, guid: 862209dc29a5f4540917aff80708abca, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2823,7 +2813,7 @@ GameObject:
   - component: {fileID: 1281936086}
   - component: {fileID: 5322391271073778389}
   m_Layer: 0
-  m_Name: Asturias (2)
+  m_Name: Asturias
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2854,11 +2844,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 0.010090458}
-      - {x: -0.009596568, y: 0.0031181434}
-      - {x: -0.0059310044, y: -0.0081632985}
-      - {x: 0.0059310063, y: -0.008163298}
-      - {x: 0.009596568, y: 0.003118145}
+    - - {x: 0.008199886, y: 0.0023452654}
+      - {x: -0.008339649, y: 0.0033582975}
+      - {x: -0.009522192, y: -0.0039604846}
+      - {x: 0.0059310063, y: -0.0067223255}
+      - {x: 0.009776122, y: -0.0030059486}
 --- !u!1 &5346191928580951419
 GameObject:
   m_ObjectHideFlags: 0
@@ -2872,7 +2862,7 @@ GameObject:
   - component: {fileID: 1216186444}
   - component: {fileID: 5346191928580951420}
   m_Layer: 0
-  m_Name: Extremadura (2)
+  m_Name: Extremadura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2903,11 +2893,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 0.01913615}
-      - {x: -0.01819956, y: 0.005913395}
-      - {x: -0.011247945, y: -0.015481471}
-      - {x: 0.011247949, y: -0.015481469}
-      - {x: 0.01819956, y: 0.0059133978}
+    - - {x: -0.00044437288, y: 0.015415187}
+      - {x: -0.0077306395, y: 0.018422563}
+      - {x: -0.011420401, y: -0.010023575}
+      - {x: -0.0029054172, y: -0.016501281}
+      - {x: 0.009065323, y: -0.018100642}
+      - {x: 0.007159653, y: -0.009889848}
+      - {x: 0.011840072, y: 0.0085180225}
+      - {x: 0.0089227995, y: 0.014714427}
 --- !u!1 &6054810717003101456
 GameObject:
   m_ObjectHideFlags: 0
@@ -2921,7 +2914,7 @@ GameObject:
   - component: {fileID: 663714301}
   - component: {fileID: 6054810717003101457}
   m_Layer: 0
-  m_Name: La Rioja (2)
+  m_Name: La Rioja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3114,7 +3107,7 @@ GameObject:
   - component: {fileID: 406771533}
   - component: {fileID: 7470613133313335241}
   m_Layer: 0
-  m_Name: Navarra (2)
+  m_Name: Navarra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3145,11 +3138,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 0.015505349}
-      - {x: -0.014746436, y: 0.0047914367}
-      - {x: -0.009113797, y: -0.012544038}
-      - {x: 0.0091138, y: -0.012544036}
-      - {x: 0.014746435, y: 0.004791439}
+    - - {x: -0.015426434, y: 0.008843934}
+      - {x: -0.013577768, y: -0.0051422734}
+      - {x: -0.022436626, y: -0.007752492}
+      - {x: -0.014025856, y: -0.01651752}
+      - {x: 0.014045235, y: 0.0030384425}
 --- !u!1 &7666358036800188533
 GameObject:
   m_ObjectHideFlags: 0
@@ -3163,7 +3156,7 @@ GameObject:
   - component: {fileID: 143861057}
   - component: {fileID: 7666358036800188534}
   m_Layer: 0
-  m_Name: Aragorn (2)
+  m_Name: Aragorn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3194,11 +3187,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 0.019995244}
-      - {x: -0.019016579, y: 0.0061788904}
-      - {x: -0.01175289, y: -0.01617644}
-      - {x: 0.011752894, y: -0.016176438}
-      - {x: 0.019016579, y: 0.0061788936}
+    - - {x: 0.009364605, y: 0.019689878}
+      - {x: -0.018304054, y: -0.0000302447}
+      - {x: -0.017351292, y: -0.018721176}
+      - {x: 0.0014721891, y: -0.013529944}
+      - {x: 0.016471848, y: -0.0033893208}
 --- !u!1 &8158200177279410127
 GameObject:
   m_ObjectHideFlags: 0
@@ -3212,7 +3205,7 @@ GameObject:
   - component: {fileID: 359042946}
   - component: {fileID: 8158200177279410128}
   m_Layer: 0
-  m_Name: Castille y Leon (2)
+  m_Name: Castille y Leon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3243,11 +3236,18 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.000000014901161, y: 0.0323}
-      - {x: -0.03071914, y: 0.009981248}
-      - {x: -0.018985476, y: -0.02613125}
-      - {x: 0.005094423, y: -0.012688301}
-      - {x: 0.030868467, y: 0.004006627}
+    - - {x: 0.024446853, y: 0.0032815882}
+      - {x: 0.023045048, y: 0.012547066}
+      - {x: 0.003728981, y: 0.017047495}
+      - {x: -0.017750042, y: 0.022561783}
+      - {x: -0.023192411, y: 0.0041113324}
+      - {x: -0.031026537, y: 0.00029849587}
+      - {x: -0.0265662, y: -0.00076532905}
+      - {x: -0.028975597, y: -0.018753959}
+      - {x: -0.013523823, y: -0.022800928}
+      - {x: 0.00081987586, y: -0.019179247}
+      - {x: 0.015935283, y: -0.01193586}
+      - {x: 0.032185335, y: 0.0003194362}
 --- !u!212 &8413735136359330442
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3391,7 +3391,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 3286163911610860551, guid: 537707dfe9ccc6f45ab4d58d05602fbd, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

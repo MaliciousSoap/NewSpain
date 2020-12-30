@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(PolygonCollider2D))]
+[ExecuteInEditMode]
 public class Clickable : MonoBehaviour
 {
     // Start is called before the first frame update
