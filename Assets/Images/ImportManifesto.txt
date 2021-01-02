@@ -1,10 +1,9 @@
 
 
-//-----------------------------
+//----------------------------- Single Assets
 //Illustrator
 Right click while selected, 
-Collect for export
-Export at 576 ppi
+Collect for export, SVG -- see if create subfolder, yes?{Import into SVG folder}, no? {import into images folder}
 Return SVG into this folder
 
 //Unity
@@ -12,3 +11,22 @@ drag SVG onto screen, or something
 
 //---------------------------------
 
+
+Countries? --- 
+//Illustrator
+Get full nation
+pull out a knife tool and slice 
+deselect and reselect the relevant shape frequently to maximize workflow
+select all when done
+export multiple assets
+do not create sub folder
+import into /SVG/
+maybe create a folder /[Nation Name]/
+//Unity
+create a main asset, this is either your guide or an empty
+change main asset scale to 10:x and 10:y
+drag all provinces out
+add <clickable> script
+modify the polygon mesh
+clicking on an edge with shift will add a new vertex
+//----

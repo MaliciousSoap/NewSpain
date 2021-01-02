@@ -7,7 +7,8 @@ public class DeveloperInterface : MonoBehaviour
     public float dragSpeed = 2;
 
     //public GameObject buggedObject;
-    public GameObject map;
+    [Tooltip("[SPACE] tells camera size, [Y] tells y coord")]
+    public GameObject HoverOverMe;
 
     public Camera m_cam;
 

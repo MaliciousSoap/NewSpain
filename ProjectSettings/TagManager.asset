@@ -5,7 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Country
-  - IslandIcon
+  - Icon
+  - Province
+  - Colonizeable
+  - MainCanvas
   layers:
   - Default
   - TransparentFX

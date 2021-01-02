@@ -6,6 +6,7 @@ public class PlayerInterface : MonoBehaviour
 {
     private float sizeScale = 1;    //sizeScale Factor
     public float pan_speed = 2;
+    public float orthoMax = 11;
 
     private Camera currentCamera;
     private float mDelta; //Mouse Delta
@@ -23,12 +24,10 @@ public class PlayerInterface : MonoBehaviour
             mDelta = Input.mouseScrollDelta.y / 5;
             sizeScale += mDelta; // plus or minus change in mouse scroll
 
-            // if (sizeScale < -initialCameraSize + 1) { sizeScale = -initialCameraSize + 1; } //Caps sizeScale at -4 due to cameraSize 0 returning an error
-            // if (sizeScale > 0) { sizeScale = 0; } //Caps sizeScale at 0
-
             ///float M_orthographicSize = 5 - sizeScale;
-            sizeScale = Mathf.Clamp(sizeScale, 0.0f, 9.9f);
-            currentCamera.orthographicSize = 10 - sizeScale;
+
+            sizeScale = Mathf.Clamp(sizeScale, 0.0f, orthoMax - 0.1f);    //To try and prevent fustrum errors
+            currentCamera.orthographicSize = orthoMax - sizeScale;
         }//If
 
         float ortho_size = currentCamera.orthographicSize;
@@ -49,7 +48,7 @@ public class PlayerInterface : MonoBehaviour
         {
             cam_pos.x += Time.deltaTime * (ortho_size * pan_speed);
         }
-        cam_pos.y = Mathf.Clamp(cam_pos.y, -(10 - ortho_size), (10 - ortho_size)); //The sum of the intercept and the half height of the viewport (as measured from the center) must not be greater or lower than the bounding box
+        cam_pos.y = Mathf.Clamp(cam_pos.y, -(orthoMax - ortho_size), (orthoMax - ortho_size)); //The sum of the intercept and the half height of the viewport (as measured from the center) must not be greater or lower than the bounding box
         currentCamera.transform.position = cam_pos; //Modify the current camera's position by the cam_pos variable
     }//Void
 }//Class
