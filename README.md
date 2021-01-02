@@ -3,6 +3,7 @@
 
 maps:
 https://commons.wikimedia.org/wiki/Maps_of_the_world
+https://en.wikipedia.org/wiki/Wikipedia:Blank_maps#/media/File:WorldMap.svg
 https://www.cia.gov/library/publications/the-world-factbook/attachments/images/original/world_phy.jpg?1558019809
 
 
@@ -12,6 +13,8 @@ icons:
 
 
 <br />
+
+pallete: https://flatuicolors.com/palette/es
 
 
 It's a game I'm working on
